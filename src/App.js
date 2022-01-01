@@ -11,9 +11,7 @@ import Nav from "./components/Nav";
 import AboutUs from "./pages/AboutUs";
 import OurWork from "./pages/OurWork";
 import ContactUs from "./pages/ContactUs";
-import MovieDetail from "./pages/MovieDetails";
-
-import { About } from "./styles";
+import MovieDetail from "./pages/MovieDetail";
 
 function App() {
 	return (

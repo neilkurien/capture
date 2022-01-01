@@ -7,8 +7,6 @@ import athlete from "../img/athlete-small.png";
 import theracer from "../img/theracer-small.png";
 import goodtimes from "../img/goodtimes-small.png";
 
-import MovieDetail from "./MovieDetails";
-
 const OurWork = () => {
 	return (
 		<Work>
