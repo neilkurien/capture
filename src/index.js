@@ -12,13 +12,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 ReactDOM.render(
 	<React.StrictMode>
 		<BrowserRouter>
-			<Routes>
-				<Route path="/" element={<App />}>
-					<Route path="/" element={<AboutUs />}></Route>
-					<Route path="/work" element={<OurWork />}></Route>
-					<Route path="/contact" element={<ContactUs />}></Route>
-				</Route>
-			</Routes>
+			<App />
 		</BrowserRouter>
 	</React.StrictMode>,
 	document.getElementById("root")
