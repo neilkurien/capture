@@ -1,5 +1,6 @@
 import React from "react";
 import home1 from "../img/home1.png";
+import Wave from "./wave";
 import { About, Description, Image, Hide } from "../styles";
 
 //Framer Motion
@@ -38,6 +39,7 @@ const AboutSection = () => {
 					alt="guy with a camera"
 				/>
 			</Image>
+			<Wave />
 		</About>
 	);
 };
